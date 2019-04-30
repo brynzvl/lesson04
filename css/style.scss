@@ -1,4 +1,9 @@
+
 //setting up the document
+.body {
+  background-color: #f7f8f9
+
+}
 
 .wrap {
   margin: 50px;
@@ -6,25 +11,25 @@
 
 .container {
   display: inline-block;
-  width: 250px;
-  background-color: #f7f8f9
+  width: 340px;
+  margin: 4rem;
 }
 
 .box {
-  height: 240px;
+  height: 340px;
   margin: 2rem;
-  width: 240px;
+  width: 340px;
   
   // transfom make the image scale 2x on hover
   .wrap:hover & {
-    transform: scale(2);
+    transform: scale(1.1);
   }
 }
 
 //divs with album art images and transition speeds
 .box1 {
   background-image: url(../img/skrillex.png);
-  background-repeat: repeat;
+  background-repeat: no-repeat;
   background-size: contain, cover;
   transition: all 900ms;
 }
